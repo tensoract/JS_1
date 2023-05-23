@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: rgb(33, 48, 43);
+}
+#containner {
+    
+    margin: 20px auto;
+    color: black;
+    background-color: rgb(136, 221, 225);
+    width: 350px;
+    height: 100px;
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20pt;
+}
+#containner:hover {
+    box-shadow: 0 0 25px rgb(155, 162, 130);
+}
+
+#passwork, .setting {
+    width: 200px;
+    height: 50px;
+    background-color: antiquewhite;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    font-size: 15pt;
+
+}
+
+#ran {
+    background-color: antiquewhite;
+    text-align: center;
+    margin-bottom:auto ;
+    margin-top:auto ;
+
+}
+
+.setting {
+    background-color: rgb(23, 221, 155);
+    font-size: 15pt;
+    width:150px;
+    border-radius:10px ;
+    height: 50px ;
+}
+#sym {
+    margin-left: 4px;
+    margin-top: 4px;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    appearance: none;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+#sym:checked {
+    background-color: rgb(54, 57, 227);
+}
